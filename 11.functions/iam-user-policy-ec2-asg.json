@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1731243694012",
+      "Action": [
+        "ec2:AcceptAddressTransfer",
+        "ec2:AcceptCapacityReservationBillingOwnership"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Stmt1731243711833",
+      "Action": "autoscaling:*",
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
