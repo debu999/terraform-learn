@@ -5,3 +5,4 @@
 /.idea
 private_ip.txt
 public_ip.txt
+terraform.tfstate*
